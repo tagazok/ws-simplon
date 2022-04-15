@@ -21,6 +21,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     data = requests.post(os.environ['PREDICTION_URL'],
     headers=headers,
     data=file.stream.read())
+    
 
     print(json.dumps(data.json()))
 

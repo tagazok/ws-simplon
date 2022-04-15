@@ -19,7 +19,7 @@
       "isBackground": true,
       "dependsOn": "pip install (functions)",
       "options": {
-        "cwd": "${workspaceFolder}/api-python"
+        "cwd": "${workspaceFolder}/api"
       }
     },
     {
@@ -36,7 +36,7 @@
       },
       "problemMatcher": [],
       "options": {
-        "cwd": "${workspaceFolder}/api-python"
+        "cwd": "${workspaceFolder}/api"
       }
     }
   ]

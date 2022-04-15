@@ -1,5 +1,5 @@
 {
-    "azureFunctions.deploySubpath": "api-python",
+    "azureFunctions.deploySubpath": "api",
     "azureFunctions.postDeployTask": "npm install (functions)",
     "azureFunctions.projectLanguage": "Python",
     "azureFunctions.projectRuntime": "~4",
